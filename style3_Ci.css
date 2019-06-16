@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#list {
+
+    width: 1920px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#list2 {
+
+    width: 1920px;
+    height: 70px;
+    background-color: #595959;
+    text-align: center;
+    line-height: 50px;
+}
+
+#list li {
+    vertical-align: middle;
+}
+
+/*
+header{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+*/
+
+#nav1 {
+    height: 210px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #f6f4f0;
+
+}
+
+.nav-item2 a {
+    text-decoration: none;
+    color: #f6f4f0;
+}
+
+/*여기까지 네비*/
+
+#headimg {
+
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    width: 1920px;
+    height: 539px;
+    background-image: url(images/header_Ci.png);
+    background-position:bottom;
+    background-repeat: no-repeat;
+}
+
+#headimg h2 {
+    margin-top: 185px;
+    margin-left: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+span {
+    display: block;
+    font-size: 0;
+    border-bottom: 5px solid white;
+    width: 45px;
+    margin-top: 36px;
+    margin-left: 400px;
+}
+
+#headimg p {
+    margin-bottom: 0;
+    margin-top: 22px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#contents_box {
+    position: relative;
+    float: left;
+    width: 1920px;
+    height: 640px;
+}
+
+#main_text{
+    display: inline-block;
+    float: left;
+    margin-top: 150px;
+    margin-left: 84px;
+}
+
+#header_contents img{
+    display: inline-block;
+    float: left;
+    margin-left: 322px;
+    margin-top: 105px;
+}
+
+#title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #6aa64f;
+    margin-bottom: 76px;
+}
+
+#sub_Text{
+    font-size: 25px;
+    font-weight: 400;
+    color: #606060;
+    margin-bottom: 42px;
+}
+
+#sub_Text b{
+    font-size: 30px;
+    font-weight: 400;
+    color: #6aa64f;
+}
+
+#down_ai{
+    border: 2px solid #6aa64f;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    margin-right: 55px;
+    text-decoration: none;
+    color: #6aa64f;
+}
+
+#down_jpg{
+    border: 2px solid #6aa64f;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+     text-decoration: none;
+    color: #6aa64f;
+}
+
+#sub{
+    position: relative;
+    float: left;
+    width: 1920px;
+    height: 1170px;
+    background-image: url(images/symbol.png);
+}
+
+#sub_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 310px;
+    margin-top: 52px;
+    color: #595959;
+}
+
+#text_box{
+    margin-left: 1220px;
+    margin-top: 68px;
+}
+
+.sub_content_text{
+    font-size: 22px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+#sub_title1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 310px;
+    margin-top: 120px;
+    color: #595959;
+    display: inline-block;
+}
+
+#sub_title2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 600px;
+/*    margin-top: 180px;*/
+    color: #595959;
+    display: inline-block;
+}
+
+#sub_content_text1{
+    display: inline-block;
+    margin-left: 310px;
+    margin-top: 250px;
+}
+
+#sub_content_text2{
+    display: inline-block;
+    margin-left: 330px;
+}
+
+#banchan{
+    position: relative;
+    float: left;
+    width: 1920px;
+    height: 585px;
+    background-image: url(images/banchan_back.png);
+    
+}
+
+/*
+#banchan img{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 350px;
+   
+}
+#banchan #name{
+    display: inline-block;
+    font-size: 38px;
+    margin-left: 80px;
+    margin-top: 50px;
+   
+}
+
+#sub_content_textb{
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 400;
+   margin-left: 40px;
+    margin-top: 70px;
+   
+}
+*/
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #78a55a;
+}
+
+
+
+

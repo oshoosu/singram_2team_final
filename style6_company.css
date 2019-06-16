@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+
+
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+li {
+    float: left;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#list {
+
+    width: 1920px;
+    height: 50px;
+    text-align: center;
+
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: #333333;
+}
+
+#list2 {
+
+    width: 1920px;
+    height: 70px;
+    background-color: #595959;
+    text-align: center;
+    line-height: 50px;
+}
+
+#list li {
+    vertical-align: middle;
+}
+
+
+#nav1 {
+    height: 210px;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: #f6f4f0;
+
+}
+
+.nav-item2 a {
+    text-decoration: none;
+    color: #f6f4f0;
+}
+
+#headimg{
+
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 0px;
+    width: 1920px;
+    height: 539px;
+    background-image: url(images/header_come.png);
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+}
+
+span {
+    display: block;
+    font-size: 0;
+    border-bottom: 5px solid white;
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+/*걸어온길*/
+#headimg h2 {
+    margin-top: 185px;
+    margin-left: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#headimg h3 {
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#headimg p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+#header_contents {
+    
+    width: 1920px;
+/*    height: 1100px;*/
+}
+
+/*main*/
+
+#main_text {
+    text-align: center;
+    margin-top: 50px;
+    width: 1920px;
+    height: 640px;
+    background-image: url(images/icon1.png.png);
+}
+
+#title {
+    font-size: 45px;
+    color: #6AA64F;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 135px;
+     margin-bottom: 66px;
+}
+
+#sub_Text {
+    font-size: 30px;
+    margin-top: 20px;
+
+}
+
+#sub_Text b {
+    font-weight: 500;
+    font-size: 35px;
+    color: #6AA64F;
+}
+
+#sub_Text2 {
+    margin-top: 20px;
+    font-weight: Medium;
+
+}
+
+#sub_Title {
+    text-align: left;
+    margin-left: 320px;
+    margin-top: 50px;
+    font-size: 35px;
+    color: #6AA64F;
+}
+
+#sub{
+    text-align: center;
+    width: 1920px;
+    height:2306px;
+    background-image: url(images/history1.png.png);
+}
+
+#main_contents{
+    
+    background-image: url(images/come1.png);
+    width: 1920px;
+    height:1210px;
+}
+
+#main_contents2{
+    
+    background-image: url(images/come2.png);
+    width: 1920px;
+    height:1210px;
+}
+
+
+
+/*걸어갈 길*/
+
+#headimg2 {
+
+    position: relative;
+    margin;
+    0px;
+    
+    padding-bottom: 0px;
+    width: 1920px;
+    height: 539px;
+    background-image: url(images/header_history2.png.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#headimg2 h2 {
+    padding-top: 185px;
+    margin-left: 400px;
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#headimg2 span {
+    display: block;
+    font-size: 0;
+    border-bottom: 5px solid white;
+    width: 45px;
+    margin-top: 30px;
+    margin-left: 400px;
+}
+
+#headimg2 h3 {
+    margin-top: 100px;
+    margin-left: 800px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+
+#headimg2 p {
+    margin-bottom: 0;
+    margin-top: 20px;
+    margin-left: 400px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+#main_text2{
+    text-align: center;
+    margin-top: 50px;
+    width: 1920px;
+    height: 640px;
+    background-image: url(images/icon2.png.png);
+}
+
+#header_contents {
+    width: 1920px;
+    height: 1100px;
+}
+
+#sub_content_text {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#sub2{
+    text-align: center;
+    width: 1920px;
+    height:1475px;
+    background-image: url(images/history2.png.png);
+}
+
+
+#sub_content1{
+    text-align: center;
+}
+
+#sub_content1 #sub_Title{
+    margin-bottom: 70px;
+}
+
+#sub_content2{
+    text-align: center;
+}
+
+#sub_content2 #sub_Title{
+    margin-bottom: 122px;
+}
+
+#sub_content3{
+    text-align: center;
+    margin-bottom: 154px;
+}
+
+#sub_content3 #sub_Title{
+    margin-top: 200px;
+    margin-bottom: 126px;
+}
+
+#fake{
+    width: 1920px;
+    height: 2372px;
+    background-image: url(images/come.png);
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #78a55a;
+}
